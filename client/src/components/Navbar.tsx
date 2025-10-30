@@ -12,9 +12,15 @@ const Navbar = () => {
       {/* Menu */}
       <ul className="flex gap-6 text-gray-700 font-medium">
         <li className="hover:text-purple-600 cursor-pointer">Home</li>
-        <li className="hover:text-purple-600 cursor-pointer">Destinations</li>
         <li className="hover:text-purple-600 cursor-pointer">About</li>
         <li className="hover:text-purple-600 cursor-pointer">Contact</li>
+        <li className="hover:text-purple-600 cursor-pointer">Destinations</li>
+        <li className="hover:text-purple-600 cursor-pointer">Collections</li>
+        <input
+          type="text"
+          placeholder="Search here what you want.."
+          className="rounded-full border border-gray-300 w-80 px-4  text-xs ml-40 "
+        />
       </ul>
 
       {/* Button */}
